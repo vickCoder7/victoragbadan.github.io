@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Victor Yaotse Agbadan – ML Researcher, Data Scientist & Mathematician. BSc Mathematics, University of Delhi. ICCR Scholar from Togo." />
+    <meta name="keywords"
+        content="Victor Agbadan, Data Science, Machine Learning, ML Researcher, Mathematics, Python, Deep Learning, Portfolio" />
+    <meta name="author" content="Victor Yaotse Agbadan" />
+    <title>Victor Yaotse Agbadan | ML Researcher & Data Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">VYA<span class="accent">.</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="flag">🇹🇬</span> Togo → India &nbsp;|&nbsp; ICCR Scholar
+            </div>
+            <h1 class="hero-name">Victor Yaotse<br /><span class="accent-gradient">Agbadan</span></h1>
+            <p class="hero-typewriter">I am a <span id="typewriter-text"></span><span class="cursor">|</span></p>
+            <p class="hero-sub">Bridging <strong>Mathematics</strong> and <strong>Machine Learning</strong> — from
+                clustering theory to real-world deep learning deployments.</p>
+            <div class="hero-cta">
+                <a href="#research" class="btn btn-primary">View Research</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://www.linkedin.com/in/victoryaotseagbadan777" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vickCoder7" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:agbadanvictor@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2>About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-photo-wrap">
+                    <div class="about-photo-glow"></div>
+                    <img src="vic.jpeg" alt="Victor Yaotse Agbadan" class="about-photo" />
+                    <div class="about-photo-badge">
+                        <i class="fas fa-graduation-cap"></i>
+                        BSc (Hons) Mathematics
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-lead">I hold a <strong>BSc (Hons) in Mathematics</strong> from the
+                        <strong>University of Delhi, Kirori Mal College.</strong>
+                        <!-- Driven by a deep passion for using rigorous mathematics to push the boundaries of machine learning. -->
+                        Originally from <strong>Togo 🇹🇬</strong>, I was awarded the <em>ICCR Merit Scholarship</em> —
+                        one of only five Togolese recipients in 2022 — to pursue undergraduate studies in India. My
+                        academic
+                        journey has taken me from the theory of dynamical systems to building real-time deep learning
+                        pipelines in active research labs.
+                    </p>
+                    <p>I'm currently a <strong>Machine Learning Research Intern at Delhi Technological
+                            University</strong>, where I
+                        develop novel plane-clustering algorithms with robustness to outliers. I also worked recently on
+                        <strong>Deep Learning project at Maitreyi College</strong>, building sign language recognition
+                        systems using YOLOV8 and VGG16.
+                    </p>
+                    <div class="about-lang">
+                        <span class="lang-badge"><i class="fas fa-globe"></i> English – Fluent</span>
+                        <span class="lang-badge"><i class="fas fa-globe"></i> French – Bilingual</span>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="4">0</span>+
+                            <span class="stat-label">Research Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="3">0</span>+
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-target="2">0</span>
+                            <span class="stat-label">Merit Scholarships</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I work with</span>
+                <h2>Skills & Expertise</h2>
+            </div>
+            <div class="skills-grid">
+
+                <div class="skill-category" data-aos>
+                    <div class="skill-cat-icon"><i class="fas fa-square-root-alt"></i></div>
+                    <h3>Mathematics & Theory</h3>
+                    <div class="skill-tags">
+                        <span>Linear Algebra</span>
+                        <span>ODEs & Dynamical Systems</span>
+                        <span>Optimization</span>
+                        <span>Statistics & Probability</span>
+                        <span>Calculus</span>
+                        <span>Eigenvalue Analysis</span>
+                        <span>Inferential Statistics</span>
+                        <span>Dimensionality Reduction</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos>
+                    <div class="skill-cat-icon"><i class="fas fa-brain"></i></div>
+                    <h3>ML / Deep Learning</h3>
+                    <div class="skill-tags">
+                        <span>Scikit-learn</span>
+                        <span>TensorFlow / Keras</span>
+                        <span>YOLOv8</span>
+                        <span>VGG16 / ResNet50</span>
+                        <span>NLP & Sentiment Analysis</span>
+                        <span>Clustering Algorithms</span>
+                        <span>Random Forests</span>
+                        <span>Gradient Boosting</span>
+                        <span>PCA</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos>
+                    <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Pandas / NumPy</span>
+                        <span>Matplotlib / Seaborn</span>
+                        <span>Jupyter Notebooks</span>
+                        <span>Git & GitHub</span>
+                        <span>LaTeX</span>
+                        <span>Web Scraping</span>
+                        <span>EDA</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Where I've worked</span>
+                <h2>Experience</h2>
+            </div>
+            <div class="exp-tabs">
+                <button class="exp-tab active" data-tab="work" id="tab-work">Work</button>
+                <button class="exp-tab" data-tab="extra" id="tab-extra">Extracurriculars</button>
+            </div>
+
+            <!-- WORK -->
+            <div class="exp-panel active" id="panel-work">
+                <div class="timeline">
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>DL (Project) Intern</h3>
+                                    <span class="tl-org">Dr. Manju's Lab, University of Delhi – Maitreyi College</span>
+                                </div>
+                                <span class="tl-date">Aug 2025 – Feb 2026</span>
+                            </div>
+                            <ul>
+                                <li>Engineered a full-cycle ML pipeline to preprocess image datasets for
+                                    <strong>YOLOv8</strong> and <strong>VGG16</strong> object detection with custom
+                                    annotation logic.
+                                </li>
+                                <li>Designed a controlled experiment to quantify model sensitivity across different
+                                    dataset partitions and configurations.</li>
+                                <li>Building a <strong>real-time sign language recognition</strong> and interpretation
+                                    system.</li>
+                                <li>Conducted a comparative analysis of deep learning models for sign language
+                                    detection.</li>
+                            </ul>
+                            <div class="tl-tags"><span>YOLOv8</span><span>VGG16</span><span>Computer
+                                    Vision</span><span>Python</span><span>Deep Learning</span></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>Software Engineer</h3>
+                                    <span class="tl-org">KMC Robo-Physicists</span>
+                                </div>
+                                <span class="tl-date">Sep 2023 – Feb 2024</span>
+                            </div>
+                            <ul>
+                                <li>Designed and implemented an <strong>autonomous pathfinding algorithm</strong> for
+                                    rover navigation across 10+ obstacle types, reducing collision incidents by <strong
+                                        class="highlight-num">60%</strong>.</li>
+                                <li>Developed an intuitive joystick control system improving UX and reducing operator
+                                    training time.</li>
+                            </ul>
+                            <div class="tl-tags">
+                                <span>Robotics</span><span>ROS</span><span>Python</span><span>Autonomous
+                                    Navigation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>Data Science Intern</h3>
+                                    <span class="tl-org">DevTown</span>
+                                </div>
+                                <span class="tl-date">Jan 2023 – Apr 2023</span>
+                            </div>
+                            <ul>
+                                <li>Developed and optimized deep learning models (<strong>VGG16, ResNet50</strong>) for
+                                    image classification, achieving <strong class="highlight-num">91% accuracy</strong>
+                                    on 28,000+ images via augmentation and normalization.</li>
+                                <li>Engineered a <strong>sentiment analysis pipeline</strong> using TensorFlow/Keras
+                                    with multi-hot encoding for efficient text classification.</li>
+                                <li>Conducted web scraping and EDA to uncover trends that informed business strategy
+                                    decisions.</li>
+                            </ul>
+                            <div class="tl-tags">
+                                <span>TensorFlow</span><span>Keras</span><span>ResNet50</span><span>NLP</span><span>EDA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- EXTRACURRICULARS -->
+            <div class="exp-panel" id="panel-extra">
+                <div class="timeline">
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>BCG Data Science Virtual Program</h3>
+                                    <span class="tl-org">Boston Consulting Group (Forage)</span>
+                                </div>
+                                <span class="tl-date">July 2025</span>
+                            </div>
+                            <ul>
+                                <li>Completed customer churn analysis simulation for XYZ Analytics demonstrating
+                                    advanced analytics skills.</li>
+                                <li>Built a <strong>Random Forest</strong> model achieving a <strong
+                                        class="highlight-num">high recall rate</strong> for predicting customer churn.
+                                </li>
+                                <li>Delivered an executive summary with actionable insights for strategic
+                                    decision-making.</li>
+                            </ul>
+                            <div class="tl-tags"><span>Python</span><span>Pandas</span><span>Random
+                                    Forest</span><span>Churn Analysis</span></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>British Airways Virtual Program</h3>
+                                    <span class="tl-org">British Airways (Forage)</span>
+                                </div>
+                                <span class="tl-date">August 2023</span>
+                            </div>
+                            <ul>
+                                <li>Helped British Airways plan for future lounge demand using strategic data modeling.
+                                </li>
+                                <li>Built a predictive model to understand factors influencing buying behaviour.</li>
+                            </ul>
+                            <div class="tl-tags"><span>Predictive Modeling</span><span>Data Analysis</span></div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos>
+                        <div class="tl-dot"></div>
+                        <div class="tl-content">
+                            <div class="tl-header">
+                                <div>
+                                    <h3>Academic Tutor</h3>
+                                    <span class="tl-org">Probability Theory · Statistics · Calculus</span>
+                                </div>
+                                <span class="tl-date">Nov 2023 – Feb 2024</span>
+                            </div>
+                            <ul>
+                                <li>Developed lesson plans tailored to college freshmen, adapting teaching methods to
+                                    individual learning styles.</li>
+                                <li>Provided instruction in Probability Theory, Statistics, and Calculus.</li>
+                            </ul>
+                            <div class="tl-tags">
+                                <span>Teaching</span><span>Probability</span><span>Statistics</span><span>Calculus</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic work</span>
+                <h2>Research Experience</h2>
+            </div>
+
+            <!-- Active Lab -->
+            <div class="research-lab-banner" data-aos>
+                <div class="lab-banner-icon"><i class="fas fa-flask"></i></div>
+                <div>
+                    <h3>ML Research Intern — Dr. Dhirendra's Lab</h3>
+                    <span>Delhi Technological University &nbsp;|&nbsp; Aug 2025 – Present</span>
+                </div>
+                <span class="badge-active">Active</span>
+            </div>
+            <div class="research-lab-details" data-aos>
+                <ul>
+                    <li>Read, broke down, and implemented clustering methods (k-Means, kPC, etc.) from scratch to
+                        establish baseline understanding of centroid and plane-based partitioning.</li>
+                    <li>Implemented and analyzed advanced k-Plane clustering algorithms (kPPC, RFLkPC) by deriving
+                        optimization functions from first principles based on seminal papers.</li>
+                    <li>Developing a <strong>novel model</strong> combining plane clustering and probabilistic functions
+                        to cluster data with strong resistance to outliers and noise.</li>
+                </ul>
+                <div class="tl-tags"><span>Clustering</span><span>Fuzzy
+                        Logic</span><span>Optimization</span><span>Robust ML</span></div>
+            </div>
+
+            <!-- Research Cards -->
+            <div class="research-grid">
+
+                <div class="research-card" data-aos>
+                    <div class="rc-top">
+                        <span class="rc-date">Oct – Dec 2024</span>
+                        <span class="rc-institution">Kirori Mal College, DU</span>
+                    </div>
+                    <h3>Assessing & Modeling Mathematics Learning in Higher Education</h3>
+                    <p>Led an end-to-end ML pipeline on 9,546 student responses from the MathE platform (UCI dataset) to
+                        identify key factors influencing math performance.</p>
+                    <div class="rc-metrics">
+                        <div class="rc-metric"><strong class="highlight-num">0.82</strong><span>F1 Score</span></div>
+                        <div class="rc-metric"><strong class="highlight-num">0.73</strong><span>AUC-ROC</span></div>
+                        <div class="rc-metric"><strong class="highlight-num">4</strong><span>Models Trained</span></div>
+                    </div>
+                    <div class="tl-tags"><span>Classification</span><span>Feature
+                            Engineering</span><span>Scikit-learn</span><span>EDA</span></div>
+                </div>
+
+                <div class="research-card" data-aos>
+                    <div class="rc-top">
+                        <span class="rc-date">Apr – Jun 2024</span>
+                        <span class="rc-institution">Kirori Mal College, DU</span>
+                    </div>
+                    <h3>Dynamical Systems: One- and Two-dimensional Systems</h3>
+                    <p>In-depth analysis of 1D & 2D dynamical systems investigating stability, bifurcations
+                        (saddle-node, transcritical, pitchfork), and phase portraits under faculty supervision.</p>
+                    <div class="rc-metrics">
+                        <div class="rc-metric"><strong class="highlight-num">20+</strong><span>Page Report</span></div>
+                        <div class="rc-metric"><strong class="highlight-num">3</strong><span>Bifurcation Types</span>
+                        </div>
+                    </div>
+                    <div class="tl-tags"><span>ODEs</span><span>Phase Portraits</span><span>Linear
+                            Algebra</span><span>Bifurcations</span></div>
+                </div>
+
+                <div class="research-card" data-aos>
+                    <div class="rc-top">
+                        <span class="rc-date">Mar – Apr 2024</span>
+                        <span class="rc-institution">Kirori Mal College, DU</span>
+                    </div>
+                    <h3>Mathematical & Statistical Principles of Data Science and ML</h3>
+                    <p>Team of 3 investigating mathematical foundations of ML algorithms — linear algebra, calculus, and
+                        inferential statistics across supervised and unsupervised techniques.</p>
+                    <div class="rc-metrics">
+                        <div class="rc-metric"><strong class="highlight-num">30+</strong><span>Page Report</span></div>
+                        <div class="rc-metric"><strong class="highlight-num">3</strong><span>Team Members</span></div>
+                    </div>
+                    <div class="tl-tags"><span>PCA</span><span>Gradient
+                            Descent</span><span>Statistics</span><span>LaTeX</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Things I've built</span>
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card" data-aos>
+                    <div class="project-card-top">
+                        <div class="project-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/vickCoder7/SpaceX-falcon-9-first-stage-landing-prediction"
+                                target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>SpaceX Falcon 9 First Stage Landing Prediction</h3>
+                    <p>End-to-end ML project predicting whether the Falcon 9 first stage will land successfully, built
+                        from data sourced via API and web scraping.</p>
+                    <ul class="project-bullets">
+                        <li>Sourced SpaceX data via REST API and Wikipedia scraping</li>
+                        <li>Cleaned, analyzed, and visualized launch data to identify successful landing patterns</li>
+                        <li>Built interactive dashboard for site-wise landing success rates</li>
+                        <li>Trained Logistic Regression, Decision Tree, SVC & KNN with GridSearchCV — achieving <strong
+                                class="highlight-num">94.4% accuracy</strong></li>
+                    </ul>
+                    <div class="tl-tags"><span>Python</span><span>Scikit-learn</span><span>GridSearchCV</span><span>Data
+                            Viz</span><span>Web Scraping</span></div>
+                </div>
+
+                <div class="project-card" data-aos>
+                    <div class="project-card-top">
+                        <div class="project-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/vickCoder7/llm_powered_financial_auditor" target="_blank"
+                                rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="badge-wip">In Progress</span>
+                        </div>
+                    </div>
+                    <h3>LLM-Powered Financial Auditor</h3>
+                    <p>An AI-powered system that detects and explains anomalies in company financial statements using a
+                        hybrid rules-based + LLM approach.</p>
+                    <ul class="project-bullets">
+                        <li>Designed hybrid anomaly detection combining rules-based methods and LLMs</li>
+                        <li>Developed LLM explanation module for natural-language anomaly justification</li>
+                        <li>Building Streamlit web UI for uploading HTML financial reports and generating real-time
+                            audit insights</li>
+                    </ul>
+                    <div class="tl-tags"><span>LLMs</span><span>Streamlit</span><span>OpenAI API</span><span>Prompt
+                            Engineering</span><span>Python</span></div>
+                </div>
+
+                <div class="project-card" data-aos>
+                    <div class="project-card-top">
+                        <div class="project-icon"><i class="fas fa-heartbeat"></i></div>
+                        <div class="project-links">
+                            <a href="https://github.com/vickCoder7/early_stage_diabetes_risk_prediction" target="_blank"
+                                rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Early-Stage Diabetes Risk Prediction</h3>
+                    <p>Medical ML project predicting diabetes likelihood from a dataset of 500+ patient records using
+                        logistic regression.</p>
+                    <ul class="project-bullets">
+                        <li>Performed EDA on medical dataset of 500+ instances</li>
+                        <li>Analyzed feature impact on diabetes outcomes</li>
+                        <li>Implemented logistic regression model achieving <strong class="highlight-num">91%
+                                accuracy</strong></li>
+                    </ul>
+                    <div class="tl-tags"><span>Python</span><span>EDA</span><span>Logistic
+                            Regression</span><span>Healthcare ML</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recognition</span>
+                <h2>Scholarships & Achievements</h2>
+            </div>
+            <div class="awards-grid">
+
+                <div class="award-card" data-aos>
+                    <div class="award-medal">🏅</div>
+                    <div class="award-year">2022 – 2025</div>
+                    <h3>ICCR Merit-Based Scholarship</h3>
+                    <p>Recognized as <strong>one of only five Togolese awardees</strong> and named the sole scholarship
+                        recipient from Togo for undergraduate studies in India in 2022.</p>
+                    <div class="award-org">Indian Council for Cultural Relations (ICCR)</div>
+                </div>
+
+                <div class="award-card" data-aos>
+                    <div class="award-medal">🏅</div>
+                    <div class="award-year">2018 – 2022</div>
+                    <h3>National Merit Scholarship – Togo</h3>
+                    <p>Awarded to the <strong>top 100 performers</strong> on a nationwide competitive exam, securing
+                        a place at Lycée Scientifique de Lomé — one of Togo's two elite scientific high schools.</p>
+                    <div class="award-org">Government of Togo</div>
+                </div>
+
+            </div>
+
+            <!-- Education -->
+            <div class="edu-block" data-aos>
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="edu-details">
+                    <div class="edu-header">
+                        <h3>BSc (Hons) in Mathematics</h3>
+                        <span class="tl-date">Nov 2022 – June 2025</span>
+                    </div>
+                    <p class="tl-org">University of Delhi, Kirori Mal College</p>
+                    <p>Electives: Statistics · Computer Science · Python Programming · Analytics</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's connect</span>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-aos>
+                    <p class="contact-lead">I'm always open to research collaborations, data science opportunities, or
+                        just a good conversation about mathematics and ML. Feel free to reach out!</p>
+                    <div class="contact-links">
+                        <a href="mailto:agbadanvictor@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>agbadanvictor@gmail.com</span>
+                        </a>
+                        <a href="tel:+918826969604" class="contact-link">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 88269 69604</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/victoryaotseagbadan777" target="_blank" rel="noopener"
+                            class="contact-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/victoryaotseagbadan777</span>
+                        </a>
+                        <a href="https://github.com/vickCoder7" target="_blank" rel="noopener" class="contact-link">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/vickCoder7</span>
+                        </a>
+                        <div class="contact-link no-link">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Delhi, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form" data-aos novalidate>
+                    <div class="form-group">
+                        <label for="cf-name">Name</label>
+                        <input type="text" id="cf-name" name="name" placeholder="Your name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="cf-email">Email</label>
+                        <input type="email" id="cf-email" name="email" placeholder="your@email.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="cf-message">Message</label>
+                        <textarea id="cf-message" name="message" rows="5" placeholder="Tell me what's on your mind..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width" id="form-submit-btn">
+                        <span>Send Message</span> <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <p class="form-note" id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-inner">
+            <span class="nav-logo">VYA<span class="accent">.</span></span>
+            <p>Designed & built by Victor Yaotse Agbadan · 2025</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/victoryaotseagbadan777" target="_blank" rel="noopener"
+                    aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vickCoder7" target="_blank" rel="noopener" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:agbadanvictor@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
